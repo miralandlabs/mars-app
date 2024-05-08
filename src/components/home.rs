@@ -17,7 +17,8 @@ pub fn Home(cx: Scope) -> Element {
                 }
             }
             Balance {}
-            Activity {}
+            // MI
+            // Activity {}
         }
     }
 }

@@ -85,7 +85,7 @@ pub fn WhatIsMining(cx: Scope) -> Element {
                 "This algorithm is what makes Mars unique and unlike any other digital token in the world. "
                 "It has never been tried before in the history of cryptocurrency and is only possible due to the recent breakthroughs of high performance blockchains like "
                 a {
-                    class: "font-semibold hover:text-green-500 underline transition-colors",
+                    class: "font-semibold hover:text-orange-500 underline transition-colors",
                     href: "https://solana.com",
                     "Solana"
                 }

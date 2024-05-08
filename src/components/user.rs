@@ -196,9 +196,10 @@ pub fn User(cx: Scope, id: String) -> Element {
                     }
                 }
             }
-            UserActivity {
-                user_id: user_id
-            }
+            // MI
+            // UserActivity {
+            //     user_id: user_id
+            // }
         }
     }
 }

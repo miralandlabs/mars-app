@@ -15,11 +15,17 @@ module.exports = {
       transparent: colors.transparent,
       white: '#f5f5f7',
       black: '#1d1d1f',
-      green: {
-        400: '#5EDCA7',
-        500: '#0acf86',
-        600: '#00b87c',
-        700: '#00a36e',
+      // green: {
+      //   400: '#5EDCA7',
+      //   500: '#0acf86',
+      //   600: '#00b87c',
+      //   700: '#00a36e',
+      // },
+      orange: {
+        400: '#FB923C',
+        500: '#F97316',
+        600: '#EA580C',
+        700: '#C2410C',
       },
       gray: {
         100: '#e8e8ea',
