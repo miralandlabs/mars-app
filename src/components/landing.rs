@@ -84,7 +84,8 @@ fn Hero(cx: Scope) -> Element {
                         class: "flex flex-col gap-y-4 sm:gap-y-6 md:gap-y-8",
                         p {
                             class: "text-center text-4xl min-[480px]:text-5xl min-[600px]:text-6xl md:text-7xl lg:text-8xl font-bold font-hero text-black",
-                            "Mars landing time!"
+                            // "Mars landing time!"
+                            " "
                         }
                         p {
                             class: "text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center max-w-[46rem] font-hero leading-7 text-black",
