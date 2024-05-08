@@ -82,7 +82,7 @@ pub fn MinerToolbarInsufficientBalanceOpen(cx: Scope) -> Element {
                 class: "flex flex-col gap-2",
                 p {
                     class: "text-3xl md:text-4xl lg:text-5xl font-bold",
-                    "Top up to pay mining transaction fees"
+                    "As miner, top up your wallet to pay transaction fees"
                 }
                 p {
                     class: "text-lg",
