@@ -24,12 +24,16 @@ pub fn Download(cx: Scope) -> Element {
                 p {
                     "Use the Mars desktop app to avoid the limitations of browser-based mining and get the most out of your machine. "
                 }
+                // MI
+                // li {
+                //     a {
+                //         class: "font-semibold hover:underline hover:text-orange-500",
+                //         href: "{DESKTOP_DOWNLOAD_MAC}",
+                //         "Download for Mac"
+                //     }
+                // }
                 li {
-                    a {
-                        class: "font-semibold hover:underline hover:text-orange-500",
-                        href: "{DESKTOP_DOWNLOAD_MAC}",
-                        "Download for Mac"
-                    }
+                    "MacOS (coming soon...)"
                 }
                 li {
                     "Linux (coming soon...)"
