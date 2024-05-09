@@ -42,7 +42,7 @@ jobs:
           args: dioxus-cli
 
       - name: Build web pages
-        run: dx build --release
+        run: dx build --release && cp ./dist/index.html ./dist/404.html
 
       - name: Deploy to Vercel (prod)
         if: github.event_name == 'push' && endsWith(github.ref, 'refs/heads/main') # Deploy to prod if it is a push to `main`
