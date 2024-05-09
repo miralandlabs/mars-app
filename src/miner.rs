@@ -198,7 +198,9 @@ async fn find_open_bus(gateway: &Rc<Gateway>, reward_rate: u64) -> usize {
     loop {
         let bus_id = rng.gen_range(0..BUS_COUNT);
         if let Ok(bus) = gateway.get_bus(bus_id).await {
-            if bus.rewards.gt(&reward_rate.saturating_mul(4)) {
+            // MI
+            // if bus.rewards.gt(&reward_rate.saturating_mul(4)) {
+            if bus.rewards.ge(&reward_rate.saturating_mul(1)) {
                 return bus_id;
             }
         }
