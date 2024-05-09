@@ -254,7 +254,7 @@ fn DownloadLink(cx: Scope) -> Element {
                     Link {
                         to: Route::Download {},
                         class: "font-medium underline",
-                        "download the app."
+                        "download the app or CLI tool."
                     }
                 }
             }

@@ -92,6 +92,7 @@ fn Hero(cx: Scope) -> Element {
                             // "Mars is a cryptocurrency for sovereign individuals living in Mirascape Horizon across the galaxy."
                             " "
                             " "
+                            " "
                         }
                     }
                     Link {
