@@ -90,11 +90,12 @@ fn Hero(cx: Scope) -> Element {
                         p {
                             class: "text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center max-w-[46rem] font-hero leading-7 text-black",
                             // "Mars is a cryptocurrency for sovereign individuals living in Mirascape Horizon across the galaxy."
-                            " 
-                            
-                            
-                            
-                            "
+                            " "
+                        }
+                        p {
+                            class: "text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center max-w-[46rem] font-hero leading-7 text-black",
+                            // dummy line
+                            " "
                         }
                     }
                     Link {
