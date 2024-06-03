@@ -87,27 +87,11 @@ fn Hero(cx: Scope) -> Element {
                             // "Mars landing time!"
                             " "
                         }
-                        p {
-                            class: "text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center max-w-[46rem] font-hero leading-7 text-black",
-                            // "Mars is a cryptocurrency for sovereign individuals living in Mirascape Horizon across the galaxy."
-                            " "
+                        div {
+                            // MI
                         }
                         p {
-                            class: "text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center max-w-[46rem] font-hero leading-7 text-black",
-                            // dummy line
-                            " "
-                        }
-                        p {
-                            class: "text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center max-w-[46rem] font-hero leading-7 text-black",
-                            // dummy line
-                            " "
-                        }
-                        // p {
-                        //     class: "text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center max-w-[46rem] font-hero leading-7 text-black",
-                        //     "A pure natural wild mine with no owners, no manipulators. Mars will evolve or perish on its own."
-                        // }
-                        p {
-                            class: "text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center max-w-[46rem] font-hero leading-7 text-black",
+                            class: "text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center max-w-[46rem] font-hero leading-7 text-grey",
                             "The clock is ticking..."
                         }
                     }
