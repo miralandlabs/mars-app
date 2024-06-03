@@ -97,6 +97,11 @@ fn Hero(cx: Scope) -> Element {
                             // dummy line
                             " "
                         }
+                        p {
+                            class: "text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center max-w-[46rem] font-hero leading-7 text-black",
+                            // dummy line
+                            " "
+                        }
                         // p {
                         //     class: "text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center max-w-[46rem] font-hero leading-7 text-black",
                         //     "A pure natural wild mine with no owners, no manipulators. Mars will evolve or perish on its own."
