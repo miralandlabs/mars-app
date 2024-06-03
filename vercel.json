@@ -4,12 +4,6 @@
   "github": {
     "enabled": false
   },
-  "builds": [
-    {
-      "src": "./dist/**",
-      "use": "@now/static"
-    }
-  ],
   "rewrites": [
     {
       "source": "/(.*)",
