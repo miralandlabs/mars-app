@@ -7,7 +7,7 @@ use crate::components::{
 };
 
 #[rustfmt::skip]
-#[derive(Routable, Clone)]
+#[derive(Routable, PartialEq, Clone)]
 pub enum Route {
     #[route("/")]
     Landing {},
