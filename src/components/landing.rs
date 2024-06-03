@@ -96,8 +96,11 @@ fn Hero(cx: Scope) -> Element {
                         div {
                             // MI
                         }
+                        div {
+                            // MI
+                        }
                         p {
-                            class: "text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center max-w-[46rem] font-hero leading-7 text-grey-300",
+                            class: "text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center max-w-[46rem] font-hero leading-7 text-white",
                             "The clock is ticking..."
                         }
                     }
