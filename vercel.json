@@ -10,5 +10,11 @@
         "src": "./dist/**",
         "use": "@now/static"
       }
+    ],
+    "rewrites": [
+      {
+        "source": "/(.*)",
+        "destination": "dist/$1"
+      }
     ]
   }
