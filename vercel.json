@@ -4,16 +4,11 @@
     "github": {
       "enabled": false
     },
+    "outputDirectory": "dist",
     "builds": [
       {
         "src": "./dist/**",
         "use": "@now/static"
-      }
-    ],
-    "rewrites": [
-      {
-        "source": "/(.*)",
-        "destination": "/$1"
       }
     ]
   }
