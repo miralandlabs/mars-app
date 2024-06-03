@@ -30,8 +30,8 @@ pub fn Landing(cx: Scope) -> Element {
             class: "flex flex-col",
             Hero{}
             Block {
-                title: "Proof of work.",
-                title2: "On Solana.",
+                title: "Proof of work",
+                title2: "On Solana blockchain",
                 detail: "Mars uses a novel mining protocol designed for fair token distribution. It guarantees no miner can ever be starved out from earning rewards.",
                 section: Section::A
             }
@@ -44,7 +44,7 @@ pub fn Landing(cx: Scope) -> Element {
             Block {
                 title: "Fair launch.",
                 title2: "Immutable code.",
-                detail: "Mars has no insider token allocation nor pre-mined supply. The smart contract has been frozen and open-sourced to prevent tampering or removal.",
+                detail: "Mars has no insider token allocation nor pre-mined supply. The smart contract has been frozen and open-sourced to prevent tampering or removal. It's a pure natural wild mine with no owners, no manipulators. Mars will prosper or perish on its own. The clock is ticking and the die has been cast.",
                 section: Section::C
             }
             Footer {}
@@ -99,10 +99,13 @@ fn Hero(cx: Scope) -> Element {
                         div {
                             // MI
                         }
-                        p {
-                            class: "text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center max-w-[46rem] font-hero leading-7 text-white",
-                            "The clock is ticking..."
+                        div {
+                            // MI
                         }
+                        // p {
+                        //     class: "text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center max-w-[46rem] font-hero leading-7 text-white",
+                        //     "The clock is ticking..."
+                        // }
                     }
                     Link {
                         class: "mx-auto sm:text-lg md:text-xl lg:text-2xl font-semibold bg-orange-500 hover:bg-orange-600 active:bg-orange-700 text-white transition-colors rounded-full px-6 py-3",
