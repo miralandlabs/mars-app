@@ -10,10 +10,10 @@
         "use": "@now/static"
       }
     ],
-    "routes": [
+    "rewrites": [
       {
-        "src": "/(.*)",
-        "dest": "dist/index.html"
+        "source": "/(.*)",
+        "destination": "/index.html"
       }
     ]
   }
